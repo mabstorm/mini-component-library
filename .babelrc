@@ -1,5 +1,8 @@
 {
   "plugins": [
     ["babel-plugin-styled-components", { "displayName": true }]
+  ],
+  "presets": [
+    ["@babel/preset-typescript", { "isTsx": true }]
   ]
 }
